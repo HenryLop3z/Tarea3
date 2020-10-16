@@ -22,7 +22,7 @@ setup(
     install_requires=['Pillow', 'tabulate', 'playsound', 'argparse'],  # Instala las librerias necesarias
     python_requires='>=3.3',  # Versión de Python compatible
     package_data={  # Archivos extras a los paquetes
-        'T3_pkg': ['meca.jpg', 'Texto_ejemplo.txt', 'Hello.mp3', 'Resultados.txt' ],
+        'T3_pkg': ['meca.jpg', 'Texto_ejemplo.txt', 'Hello.mp3'],
     },
     scripts=['T3_pkg/lector_texto.py', 'T3_pkg/presentador_de_audio.py', 'T3_pkg/Presentador_de_imágenes.py'] 
 )
