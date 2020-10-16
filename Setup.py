@@ -17,7 +17,7 @@ setup(
     author='DonatoLeeLopezRamirez',
     author_email='henrylopez@estudiantec.cr',
     license='unlicense',
-    package_dir={'':'T3_pkg'},  # especifica el directorio de los paquetes
+    package_dir={'T3_pkg':'T3_pkg'},  # especifica el directorio de los paquetes
     packages=['T3_pkg'],  # Encuentra los paquetes necesarios
     install_requires=['Pillow', 'tabulate', 'playsound', 'argparse'],  # Instala las librerias necesarias
     python_requires='>=3.3',  # Versión de Python compatible
