@@ -17,14 +17,12 @@ setup(
     author='DonatoLeeLopezRamirez',
     author_email='henrylopez@estudiantec.cr',
     license='unlicense',
-    package_dir={'T3_pkg': 'T3_pkg'},  # especifica el directorio de los paquetes
+    package_dir={'Tarea3DonatoLeeLopezRamirez': 'T3_pkg'},  # especifica el directorio de los paquetes
     packages=['T3_pkg'],  # Encuentra los paquetes necesarios
     install_requires=['Pillow', 'tabulate', 'playsound', 'argparse'],  # Instala las librerias necesarias
     python_requires='>=3.3',  # Versión de Python compatible
     package_data={  # Archivos
-        'T3_pkg': ['meca.jpg'],
-        'T3_pkg': ['Texto_ejemplo.txt'],
-        'T3_pkg': ['Hello.mp3'],
+        'T3_pkg': ['meca.jpg', 'Texto_ejemplo.txt', 'Hello.mp3'],
     },
     scripts=['T3_pkg/lector_texto.py', 'T3_pkg/presentador_de_audio.py', 'T3_pkg/Presentador_de_imágenes.py']
 )
