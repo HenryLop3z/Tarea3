@@ -1,6 +1,6 @@
 # archivo setup
 
-import setuptools import setup
+from setuptools import setup
 
 
 
