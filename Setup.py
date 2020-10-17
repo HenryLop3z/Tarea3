@@ -4,7 +4,7 @@ import setuptools
 
 
 
-setup(
+setuptools.setup(
     # Con esta linea se instala el paquete
     # $ pip3 install git+https://github.com/HenryLop3z/Tarea3
     scripts=['T3_pkg/lector_texto.py', 'T3_pkg/presentador_de_audio.py', 'T3_pkg/Presentador_de_imágenes.py'],
