@@ -14,7 +14,7 @@ setup(
     downdload_url='https://github.com/HenryLop3z/Tarea3',  # Enlace al proyecto
     author='DonatoLeeLopezRamirez',  # Autor
     author_email='henrylopez@estudiantec.cr',
-    #package_dir={'T3_pkg': 'T3_pkg'},  # especifica el directorio de los paquetes
+    package_dir={'T3_pkg': 'T3_pkg'},  # especifica el directorio de los paquetes
     packages=['T3_pkg'],  # Encuentra los paquetes necesarios
     install_requires=['pillow', 'tabulate', 'playsound', 'argparse'],  # Instala las librerias necesarias
     python_requires='>=3.3',  # Versión de Python compatible
