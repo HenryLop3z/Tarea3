@@ -8,7 +8,7 @@ setup(
     # Con esta linea se instala el paquete
     # $ pip3 install git+https://github.com/HenryLop3z/Tarea3
     scripts=['T3_pkg/lector_texto.py', 'T3_pkg/presentador_de_audio.py', 'T3_pkg/Presentador_de_imágenes.py']
-    name='T3_pkg',  # Nombre del proyecto
+    name='T3_pkgr',  # Nombre del proyecto
     version='1.0.0',  # Versión del programa
     description='Paquete para la tarea 3',  # Descripción breve
     downdload_url='https://github.com/HenryLop3z/Tarea3',  # Enlace al proyecto
